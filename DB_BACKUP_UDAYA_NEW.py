@@ -5,11 +5,11 @@ import shutil
 import zipfile
 
 # Oracle credentials and settings
-ORACLE_SID = "HOSPITAL"  # Replace with your Oracle SID
-DB_USER = "EHOS"
-DB_PASS = "EHOS"
-SERVER_IP = "192.168.3.250"
-BACKUP_DIR = "F:\\oracle_backups"  # Directory where backups will be stored
+ORACLE_SID = "SID"  # Replace with your Oracle SID
+DB_USER = "DB_USER"
+DB_PASS = "DB_PASSWORD"
+SERVER_IP = "192.168.3.250" # DB Host
+BACKUP_DIR = "F:\\oracle_backups"  # Directory where backups will be stored = Local folder
 
 # Backup file name based on the day of the week
 current_day = datetime.datetime.now().strftime("%A").upper()
